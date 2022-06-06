@@ -32,7 +32,7 @@ export default class Jumbo extends Component {
                <h2>Crowd Rase</h2>
                <h4>A crowd funding platform Using Blockchain Technology</h4>
               <h6 className="text-mute">Your Account Address: {this.state.account} </h6>
-              <h6 className="text-mute">Your Account Balance:  {window.web3.utils.fromWei(this.state.balance.toString(), 'Ether')} Eth </h6>
+              {/* <h6 className="text-mute">Your Account Balance:  {window.web3.utils.fromWei(this.state.balance.toString(), 'Ether')} Eth </h6> */}
             </div>
           </div>
         )
